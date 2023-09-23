@@ -63,29 +63,26 @@ body{
 
 #pageHeader{
 
-    
-    margin-bottom: 10px;
     color: chocolate;
 
 }
 
 
-
-
-
-#enterSubject {
-
-    margin: 10px 10px;
-    
-}
-
 .info {
     
     border-radius: 5px;
     height: 20px;
-    margin: 5px;
+    
 
-}       
+}      
+
+#enterSubject{
+
+    border-radius: 10px;
+    
+    border-color: black;
+
+}
 
 #submitButton {
 
