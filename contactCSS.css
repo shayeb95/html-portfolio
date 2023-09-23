@@ -1,27 +1,26 @@
 
-body{
+body {
 
     background-color: black;
 
 }
 
 
-
-#theParentDiv{
+#theParentDiv {
 
     display: flex;
     flex-direction: column;
 
 }
 
-.links{
+.links {
 
     text-decoration: none;
     color: red;
-
+    
 }
 
-.pLinks:hover{
+.pLinks:hover {
 
     text-decoration: underline;
     text-decoration-color: red;
@@ -29,7 +28,7 @@ body{
 
 }
 
-#alignHeaderDiv{
+#alignHeaderDiv {
 
     display: flex;
     justify-content: center;
@@ -40,9 +39,7 @@ body{
 
 }
 
-
-
-#headerLinksDiv{
+#headerLinksDiv {
     
     height: 50px;
     width: 100%;
@@ -63,14 +60,14 @@ body{
 
 }
 
-#pageHeader{
+#pageHeader {
 
     color: chocolate;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
-.infoDivs{
+.infoDivs {
 
     width: 300px;
     height: 40px;
@@ -81,33 +78,31 @@ body{
     
     border-radius: 5px;
     height: 20px;
-    
+
 }
 
-.info::placeholder{
+.info::placeholder {
 
-    padding: 3px;
+    padding: 1px;
     font-style: italic;
 
 }
 
-#lastNameInfo{
+#lastNameInfo {
 
     margin-left: 2px;
 
 }
 
-#emailInfo{
+#emailInfo {
 
     margin-left: 33px;
 
 }
 
+#enterSubject {
 
-
-#enterSubject{
-
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 20px;
     border-color: black;
 
@@ -115,7 +110,6 @@ body{
 
 #enterSubject::placeholder {
 
-    padding: 3px;
     font-style: italic;
 
 }
@@ -124,7 +118,7 @@ body{
 
     width: 100px;
     height: 25px;
-    border-radius: 20px;
+    border-radius: 10px;
     
     
 }
@@ -132,12 +126,14 @@ body{
 #submitButton:hover {
 
     background-color: blue;
+    cursor: pointer;
+    color: white;
 
 }
 
 #endDiv {
 
-    height: 63px;
+    height: 100px;
     width: 100%;
     background-color: lightcoral;
 }
