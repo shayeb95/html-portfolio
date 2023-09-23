@@ -1,0 +1,111 @@
+
+body{
+
+    background-color: black;
+
+}
+
+#theParentDiv{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.links{
+
+    text-decoration: none;
+    color: red;
+
+}
+
+.pLinks:hover{
+
+    text-decoration: underline;
+    text-decoration-color: red;
+    margin-top: 2px;
+
+}
+
+#alignHeaderDiv{
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+
+}
+
+
+
+#headerLinksDiv{
+    
+    height: 50px;
+    position: fixed;
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#userFormParentDiv {
+
+    background-color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+#pageHeader{
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: chocolate;
+
+}
+
+
+
+
+
+#enterSubject {
+
+    margin: 10px 10px;
+    
+}
+
+.info {
+    
+    border-radius: 5px;
+    height: 20px;
+    margin: 5px;
+
+}       
+
+#submitButton {
+
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    
+    
+}
+
+#submitButton:hover {
+
+    background-color: blue;
+
+}
+
+#endDiv {
+
+    height: 135px;
+    width: 100%;
+
+}
