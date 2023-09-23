@@ -5,6 +5,8 @@ body{
 
 }
 
+
+
 #theParentDiv{
 
     display: flex;
@@ -64,23 +66,57 @@ body{
 #pageHeader{
 
     color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
+.infoDivs{
+
+    width: 300px;
+    height: 40px;
+
+}
 
 .info {
     
     border-radius: 5px;
     height: 20px;
     
+}
 
-}      
+.info::placeholder{
+
+    padding: 3px;
+    font-style: italic;
+
+}
+
+#lastNameInfo{
+
+    margin-left: 2px;
+
+}
+
+#emailInfo{
+
+    margin-left: 33px;
+
+}
+
+
 
 #enterSubject{
 
     border-radius: 10px;
-    
+    margin-top: 20px;
     border-color: black;
+
+}
+
+#enterSubject::placeholder {
+
+    padding: 3px;
+    font-style: italic;
 
 }
 
@@ -101,7 +137,7 @@ body{
 
 #endDiv {
 
-    height: 155px;
+    height: 63px;
     width: 100%;
-    background-color: white;
+    background-color: lightcoral;
 }
