@@ -49,16 +49,20 @@ body{
 
 }
 
+
 #formSubmitButton {
 
     font-weight: bold;
     border-radius: 10px;
     width: 80px;
     background-color: white;
+    padding: 2px;
 }
 
 #formSubmitButton:hover {
 
-    background-color: blueviolet;
+    background-color: red;
+    color: white;
 
 }
+
