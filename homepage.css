@@ -4,3 +4,61 @@ body{
     background-color: whitesmoke;
 
 }
+
+#quoteForm{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#quoteFormChild { 
+
+    border: 3px solid black;
+    padding: 10px;
+    background-color: antiquewhite;
+    
+
+}
+
+#lastNameInput {
+
+    margin-left: 2px;
+
+}
+
+#emailInput { 
+
+    margin-left: 43px;
+
+}
+
+#phoneInput {
+
+    margin-left: 32px;
+
+}
+
+
+#submitButtonContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#formSubmitButton {
+
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80px;
+    background-color: white;
+}
+
+#formSubmitButton:hover {
+
+    background-color: blueviolet;
+
+}

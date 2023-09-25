@@ -96,6 +96,30 @@
             </div>
           </div>
 
+          <div id="quoteForm">
+            <form id="quoteFormChild">
+              <h6>Please fill the information so we can contact you <br>
+              in 24 hours for free quote:</h6>
+              <br>
+              <p>First Name: <input type="text" placeholder="First Name"></p>
+              <p>Last Name: <input type="text" id="lastNameInput" placeholder="Last Name"></p>
+              <p>Email:<input type="text" id="emailInput" placeholder="example@gmail.com"></p>
+              <p>Phone: <input type="tel" id="phoneInput" placeholder="Phone Number"></p>
+              <p>Quote for (You can choose 1 or both)</p>
+                <input type="checkbox" id="landScapingRadio" name="landscaping" value="landScapingQuote">
+                <label for="landscaping"> Land Scaping</label><br>
+
+                <input type="checkbox" id="snowRemovalRadio" name="snowRemoval" value="snowRemovalQuote">
+                <label for="snowRemoval"> Snow Removal</label><br>
+
+                <br>
+                <div id="submitButtonContainer">
+                <button type="button" id="formSubmitButton">Submit</button>
+                </div>
+
+            </form>
+          </div>
+
           <div class="container">
             <footer class="py-3 my-4">
               <ul class="nav justify-content-center border-bottom pb-3 mb-3">
