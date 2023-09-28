@@ -1,0 +1,80 @@
+#headerText {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#headerStyle {
+
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    border-radius: 10px;
+    box-shadow: 7px 7px #15083E;
+    color: white
+     
+
+}
+
+#headerStyleChild {
+
+    background-color: ;
+    
+
+}
+
+#headerTextChild {
+
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+
+#quoteForm {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#quoteFormChild { 
+
+    padding: 10px;
+    background-color: #F5EDEC;    
+
+}
+
+#submitButtonContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#formSubmitButton {
+
+    font-weight: bold;
+    border-radius: 10px;
+    width: 80px;
+    background-color: white;
+    padding: 2px;
+}
+
+#formSubmitButton:hover {
+
+    background-color: red;
+    color: white;
+
+}
