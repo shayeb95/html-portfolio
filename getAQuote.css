@@ -10,6 +10,8 @@
 
 }
 
+
+/*
 #headerStyle {
 
     height: 100px;
@@ -21,10 +23,23 @@
     border-radius: 10px;
     box-shadow: 7px 7px  #15083E;
     color: white;
-     
 
 }
+*/
 
+#headerStyle {
+
+    height: 100px;
+    width: 385px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border-radius: 100px;
+    box-shadow: -7px -7px 20px 2px  #15083E;
+    color: black;
+
+}
 
 
 
@@ -47,11 +62,20 @@
 
 }
 
+/*
 #quoteFormChild { 
 
     padding: 10px;
     background-color: #F5EDEC;    
 
+}*/
+
+#quoteFormChild { 
+    background-color: lightblue;
+    font-weight: bold;
+    padding: 20px;
+    box-shadow: 7px 7px 20px 2px #15083E;
+    border-radius: 5px;
 }
 
 #lastNameInput {
