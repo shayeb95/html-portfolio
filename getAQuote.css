@@ -30,7 +30,7 @@
 #headerStyle {
 
     height: 100px;
-    width: 385px;
+    width: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +73,7 @@
 #quoteFormChild { 
     background-color: lightblue;
     font-weight: bold;
-    padding: 20px;
+    padding: 5px;
     box-shadow: 7px 7px 20px 2px #15083E;
     border-radius: 5px;
 }
