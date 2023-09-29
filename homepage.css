@@ -29,62 +29,28 @@ body{
 
 }
 
-#quoteForm{
+#landscapeTitle {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
 
 }
 
-#quoteFormChild { 
+#landscapingInfo {
 
-    padding: 10px;
-    background-color: #F5EDEC;    
-
-}
-
-#lastNameInput {
-
-    margin-left: 2px;
-
-}
-
-#emailInput { 
-
-    margin-left: 43px;
-
-}
-
-#phoneInput {
-
-    margin-left: 32px;
-
-}
-
-
-#submitButtonContainer {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-
-#formSubmitButton {
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     font-weight: bold;
-    border-radius: 10px;
-    width: 80px;
-    background-color: white;
-    padding: 2px;
+    color: black;
+    margin-top: 30px;
+    
+
 }
 
-#formSubmitButton:hover {
+#snowRemovalInfo {
 
-    background-color: red;
-    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
 
 }
 
