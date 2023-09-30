@@ -29,10 +29,23 @@ body {
 
 }
 
+#landscapingContainer {
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
 #gifLanscaping {
+
     background-image: url(landscapingGif.jpg);
-    background-size: cover;
-    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    
 
 }
 
@@ -54,6 +67,25 @@ body {
 
 }
 
+#snowShovelingContainer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#snowShovelingGif {
+
+    background-image: url(snowShoveling.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+
+    
+
 #snowRemovalTitle {
    
     color: black;
@@ -66,9 +98,9 @@ body {
     margin-top: 30px;
     padding: 10px;
     font-weight: bold;
-    color: yellow;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
 }
 
 
