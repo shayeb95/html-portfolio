@@ -65,15 +65,31 @@ body {
 
 }
 
+#lawnPContainer {
+
+    background-color: green;
+    color: gold;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+
+#lawnPContainerChild {
+    height: 100%;
+    margin-top: 10px;
+}
+
 #landscapingServicesContainer {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     color: black;
     margin-bottom: 50px;
-    margin-top: 50px;
+    padding: 10PX;
   
 }
 
 #landscapingServicesUlContainer {
+    
     display: flex;
     margin-top: 10px;
     width: 250px;
