@@ -34,9 +34,7 @@
 
     background-image: url(landscapingGif.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat;  
 
 }
 
@@ -123,7 +121,10 @@
     background-color: black;
     color: whitesmoke;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 
 }
 
