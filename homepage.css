@@ -96,7 +96,6 @@
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: green;
-    margin-bottom: 50px;
 
 }
 
@@ -119,6 +118,15 @@
 
 }
 
+#callTodayP {
+
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+}
+
 #snowShovelingContainer {
 
     display: flex;
@@ -127,16 +135,13 @@
 
 }
 
-
 #snowShovelingGif {
 
     background-image: url(snowShoveling.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
    
-}
-
-    
+}   
 
 #snowRemovalTitle {
    
@@ -154,7 +159,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
-
 
 #footerDiv {
 
